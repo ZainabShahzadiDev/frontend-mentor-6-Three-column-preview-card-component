@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Gold500: hsl(31, 77%, 52%);
+    --Cyan800: hsl(184, 100%, 22%);
+    --Green950: hsl(179, 100%, 13%);
+    --TransparentWhite: hsla(0, 0%, 100%, 0.75);
+    --Gray100: hsl(0, 0%, 95%);
+}
+
+body {
+    background-color: var(--Gray100);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    place-content: center;
+}
+
+.carTypes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    max-width: 920px;
+    margin: auto;
+    width: 85%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.Sedans {
+    background-color: var(--Gold500);
+}
+
+.SUVs {
+    background-color: var(--Cyan800);
+}
+
+.Luxury {
+    background-color: var(--Green950);
+}
+
+h1 {
+    color: var(--Gray100);
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-family: 'Big Shoulders', sans-serif;
+    margin: 1.8rem 0;
+}
+
+.carTypes p {
+    color: var(--TransparentWhite);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.96rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.CarCategory {
+    padding: 3rem;
+}
+
+.Sedans .link a {
+    color: var(--Gold500);
+}
+
+.SUVs .link a {
+    color: var(--Cyan800);
+}
+
+.Luxury .link a {
+    color: var(--Green950);
+}
+
+.link {
+    padding-top: 6rem;
+    margin: 1rem 0;
+}
+
+.link a {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-family: 'Big Shoulders Display', sans-serif;
+    background-color: var(--Gray100);
+    border-radius: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .carTypes {
+        grid-template-columns: 1fr;
+    }
+
+    .CarCategory {
+        padding: 1.5rem;
+    }
+    
+    .carTypes img {
+        height: 2.6vh;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+
+    .CarCategory p {
+        font-size: 0.5rem;
+        line-height: 0.84rem;
+    } 
+
+    .link {
+        padding-top: 0.6rem;
+        margin: 0.3rem 0; 
+    }
+
+    .link a {
+        padding: 0.5rem 1rem;
+        font-size: 0.55rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 860px) {
+    body {
+        height: auto;
+    }
+    .carTypes {
+        margin: 2rem;
+        grid-template-columns: 1fr;
+    }
+    
+    .CarCategory {
+        padding: 4rem;
+    }
+}
