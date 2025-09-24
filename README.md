@@ -16,7 +16,7 @@ Responsive card layout showcasing **Sedans, SUVs, and Luxury** cars. Built with 
 
   
 ## 👀 Live Demo
-🔗 [Live Hosting Link](https://your-live-link.com)
+🔗 [Live Hosting Link]([https://your-live-link.com](https://zainabshahzadidev.github.io/frontend-mentor-6-Three-column-preview-card-component/))
 
 ## 👀 Preview Screenshot
 ![Preview Screenshot](/images/PreviewScreenshot.jpg)  
