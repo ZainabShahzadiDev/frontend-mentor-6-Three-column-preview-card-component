@@ -19,4 +19,4 @@ Responsive card layout showcasing **Sedans, SUVs, and Luxury** cars. Built with 
 🔗 [Live Hosting Link](https://your-live-link.com)
 
 ## 👀 Preview Screenshot
-![Preview Screenshot](images/preview.png)  
+![Preview Screenshot](/images/PreviewScreenshot.jpg)  
