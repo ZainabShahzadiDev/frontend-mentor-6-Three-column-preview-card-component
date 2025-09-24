@@ -58,6 +58,7 @@ h1 {
     font-size: 0.96rem;
     line-height: 1.5rem;
     font-weight: 300;
+    margin-bottom: 6rem;
 }
 
 .CarCategory {
@@ -76,8 +77,26 @@ h1 {
     color: var(--Green950);
 }
 
+.Sedans .link:hover a {
+    background-color: var(--Gold500);
+    color: var(--Gray100);
+    border: 2px solid var(--Gray100);
+}
+
+.SUVs .link:hover a {
+    background-color: var(--Cyan800);
+    color: var(--Gray100);
+    border: 2px solid var(--Gray100);
+}
+
+.Luxury .link:hover a {
+    background-color: var(--Green950);
+    color: var(--Gray100);
+    border: 2px solid var(--Gray100);
+}
+
+
 .link {
-    padding-top: 6rem;
     margin: 1rem 0;
 }
 
@@ -97,11 +116,11 @@ h1 {
     .CarCategory {
         padding: 1.5rem;
     }
-    
+
     .carTypes img {
         height: 2.6vh;
     }
-    
+
     h1 {
         font-size: 1.3rem;
         margin: 1rem 0;
@@ -110,11 +129,11 @@ h1 {
     .CarCategory p {
         font-size: 0.5rem;
         line-height: 0.84rem;
-    } 
+    }
 
     .link {
         padding-top: 0.6rem;
-        margin: 0.3rem 0; 
+        margin: 0.3rem 0;
     }
 
     .link a {
@@ -127,11 +146,12 @@ h1 {
     body {
         height: auto;
     }
+
     .carTypes {
         margin: 2rem;
         grid-template-columns: 1fr;
     }
-    
+
     .CarCategory {
         padding: 4rem;
     }
